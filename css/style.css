@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Ptd';
+    src: url('woff2/Pretendard-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ptd2';
+    src: url('woff2/Pretendard-Light.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ptd3';
+    src: url('woff2/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ptd4';
+    src: url('woff2/Pretendard-Medium.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ptd5';
+    src: url('woff2/Pretendard-SemiBold.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ptd6';
+    src: url('woff2/Pretendard-Bold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ptd7';
+    src: url('woff2/Pretendard-ExtraBold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ptd8';
+    src: url('woff2/Pretendard-Black.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ptd9';
+    src: url('woff2/Pretendard-ExtraLight.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+
+
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+img {vertical-align: top; object-fit: cover;}
+.blind {
+    width: 0;height: 0;font-size: 0;position: absolute;left: -999px;opacity: 0;
+}
+
+.wrap {
+    width: 94%; height: 100vh; margin: 0px auto; position: relative; padding: 90px 10px; box-sizing: border-box;
+    background: #0c1536;
+    color: #fff;
+    font-family: ptd;
+    letter-spacing: 1px;
+}
+body{
+    font-size: 18px;
+}
+
+.sns ul .slack img,
+.sns ul .kakao img,
+ {
+    filter: invert(100%);
+}
+section .wrap h1 {
+    width: 200px; margin: 0 auto;
+    height: 27px;
+}
+.wrap p {
+    text-align: center;
+    font-family: ptd2;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #5EB1FF;
+}
+section .wrap h1 img {
+    width: 100%;
+}
+section .wrap .name {
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+section .wrap .title {
+    font-size: 18px;
+    margin-top: 50px;
+}
+section .wrap h2 {
+    margin: 40px auto 8px; text-align: center;
+}
+.wrap h2.name{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+p.name2 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #ccc;
+}
+section .wrap .title {
+    margin: 0;
+    font-size: 16px;
+}
+section .wrap .tel ul.num{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+}
+section .wrap .sns ul {
+    display: flex; justify-content: space-around; align-items: flex-start;
+}
+section .wrap .tel {
+    margin: 30px auto 20px;
+    font-size: 18px;
+}
+section .wrap .tel h2 {
+    font-size: 16px;
+}
+section .wrap .tel ul li {
+    margin: 10px 0;
+}
+section .wrap .sns .cont {
+    text-align: center;
+}
+section .wrap .sns {
+    padding: 0px;
+    margin: 50px auto 10px; text-align: center;
+}
+section .wrap .sns h5 {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3px 0 5px;
+    border-radius: 100px;
+}
+section .wrap .sns i{
+    width: 50px;
+    font-size: 20px;
+    margin: 10px 0 20px;
+}
+section .wrap .sns a {
+    display: block;
+}
+section .wrap .sns ul {
+    display: flex; justify-content: center; align-items: center;
+}
+section .wrap .sns ul li {
+    width: 100px; height: auto; margin: 10px 0px; padding: 10px;
+    transition: 0.6s;
+}
+section .wrap .sns ul li:hover {
+    transform: translateY(-10px);
+}
+section .wrap .sns ul li img {
+    width: 100%;
+}
+section .wrap .sns ul .slack img{
+    width: 72%;
+}
+section .wrap .sns ul .kakao img{
+    width: 80%;
+}
+section .wrap .sns ul .youtube img{
+    width: 80%;
+}
+section .wrap .sns ul .insta img{
+    width: 70%;
+}
+section .wrap .sns ul li p {
+    display: none;
+}
