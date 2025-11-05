@@ -72,13 +72,14 @@ img {vertical-align: top; object-fit: cover;}
 
 .wrap {
     width: 94%; height: 100vh; margin: 0px auto; position: relative; padding: 90px 10px; box-sizing: border-box;
-    background: #0c1536;
+    
     color: #fff;
     font-family: ptd;
     letter-spacing: 1px;
 }
 body{
     font-size: 18px;
+    background: #0c1536;
 }
 
 .sns ul .slack img,
@@ -126,7 +127,7 @@ p.name2 {
 }
 section .wrap .title {
     margin: 0;
-    font-size: 16px;
+    font-size: 1px;
 }
 section .wrap .tel ul.num{
     font-size: 16px;
