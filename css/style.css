@@ -139,9 +139,9 @@ section .wrap .tel {
     margin: 30px auto 20px;
     font-size: 18px;
 }
-/* section .wrap .tel ul li {
+section .wrap .tel ul li {
     margin: 10px 0;
-} */
+}
 section .wrap .sns ul {
     display: flex; justify-content: space-around; align-items: flex-start;
 }
