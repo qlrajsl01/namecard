@@ -21,12 +21,6 @@ section .wrap .tel ul.num{
 section .wrap ul {
     display: block;
 }
-/* section .wrap .tel {
-    text-align: center; margin: 30px auto 20px;
-} */
-section .wrap .tel ul li {
-    margin: 10px 0;
-}
 section .wrap .sns .cont {
     text-align: center;
 }
@@ -40,7 +34,7 @@ section .wrap .sns ul {
     display: flex; flex-wrap: wrap;
 }
 section .wrap .sns ul li {
-    width: 16%; height: auto; margin: 0 14px; padding: 0px;
+    width: 16%; height: auto; padding: 0px;
 }
 section .wrap .sns ul li p {
     display: none;
